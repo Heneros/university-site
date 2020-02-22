@@ -12,7 +12,7 @@
           <p>DONT FORGET TO REPLACE ME LATER</p>
         </div>
       </div>  
-    </div>
+    </div> 
 
     <div class="container container--narrow page-section">
           <div class="metabox metabox--position-up metabox--with-home-link">
