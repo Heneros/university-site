@@ -10,6 +10,6 @@ import Search from './modules/Search';
 
 var mobileMenu = new MobileMenu();
 var heroSlider = new HeroSlider();
-var googleMap = new GoogleMap();
-var search = new Search();
+var googleMap = new GoogleMap();  
+var search = new Search();      
          
