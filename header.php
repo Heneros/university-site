@@ -10,7 +10,7 @@
     <div class="container">
       <h1 class="school-logo-text float-left"><a href="<?php echo site_url() ?>"><strong>Fictional</strong> University</a></h1>
 
-      <a href="<?php echo esc_url(site_url('/search')); ?>" class="search-trigger js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></a>
+      <a href="<?php echo esc_url(site_url('/search')); ?>" class="js-search-trigger site-header__search-trigger"><i class="fa fa-search" aria-hidden="true"></i></a>
       <i class="site-header__menu-trigger fa fa-bars" aria-hidden="true"></i>
       <div class="site-header__menu group">
         <nav class="main-navigation">
