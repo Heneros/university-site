@@ -2,8 +2,8 @@
 
 get_header();
 pageBanner(array(
-  'title' => 'Our Campuses',
-  'subtitle' => 'Located Campuses.'
+  'title' => 'Наши кампусы',
+  'subtitle' => 'Расположение кампусов'
 ));
  ?>
 <div class="container container--narrow page-section">

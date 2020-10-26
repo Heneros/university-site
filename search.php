@@ -2,8 +2,8 @@
 
 get_header();
 pageBanner(array(
-  'title' => 'Search Results',
-  'subtitle' => 'You searched for &ldquo;' . get_search_query() . '&rdquo;'
+  'title' => 'Результаты Поиска',
+  'subtitle' => 'Вы искали &ldquo;' . get_search_query() . '&rdquo;'
 ));
  ?>
 <div class="container container--narrow page-section">
@@ -15,7 +15,7 @@ pageBanner(array(
      } 
   echo paginate_links();
   } else {
-    echo '<h2 class="headline headline--small-plus">No results match that search.</h2>';
+    echo '<h2 class="headline headline--small-plus">Нет результатов, совпадающих с этим поиском.</h2>';
      } 
 
      get_search_form();

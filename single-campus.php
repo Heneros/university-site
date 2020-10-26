@@ -9,7 +9,7 @@
 
     <div class="container container--narrow page-section">
           <div class="metabox metabox--position-up metabox--with-home-link">
-        <p><a class="metabox__blog-home-link" href="<?php echo get_post_type_archive_link('campus'); ?>"><i class="fa fa-home" aria-hidden="true"></i> All Campuses</a> <span class="metabox__main"><?php the_title(); ?></span></p>
+        <p><a class="metabox__blog-home-link" href="<?php echo get_post_type_archive_link('campus'); ?>"><i class="fa fa-home" aria-hidden="true"></i> Все кампусы</a> <span class="metabox__main"><?php the_title(); ?></span></p>
       </div>
 
       <div class="generic-content"><?php the_content(); ?></div>
@@ -42,7 +42,7 @@
 
         if ($relatedPrograms->have_posts()) {
           echo '<hr class="section-break">';
-        echo '<h2 class="headline headline--medium">Programs Available At This Campus</h2>';
+        echo '<h2 class="headline headline--medium">Программы доступны в этом кампусе:</h2>';
 
         echo '<ul class="min-list link-list">';
         while($relatedPrograms->have_posts()) {
